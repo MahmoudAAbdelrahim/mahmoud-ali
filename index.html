@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MahmouAli</title>
+    <!-- link icon -->
+    <meta name="author" content="MahmoudAli">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <link rel="icon" href="viduo/Image.jpg"/>
+
+    <!-- Link file css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>@media(max-width: 6250px){
+    .hid {
+        display: none;
+    }
+    .hidden{
+      display: flex;
+    }
+  }
+  @media(max-width: 800px){
+    .hidden{
+      display: none;
+    }
+    .hid{
+        display: flex;
+    }
+  }
+  
+  .button, .dropdown-menu {
+    padding: 0.5rem 1.5rem;
+  font-weight: 400;
+  font-size: 20px;
+    letter-spacing: 0.5px;
+    position: relative;
+    overflow: hidden;
+    outline: 0;
+    margin-bottom: 6px;
+    cursor: pointer;
+    outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px 4px;
+  list-style: none;
+  list-style-type: none;
+  background-color: #242424;
+  color: #09b850;
+    
+}
+.hidde{
+  display: none;
+}
+    /* This is purely for the demo */
+    .container {
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.plyr {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+h2{
+  color: #fff;
+}
+
+</style>
+<body>
+
+
+            <nav>
+                <a href="#" class="logo"><img src="viduo/Image.jpg" width="50" height="50"  class=" d-inline-block align-top rounded-circle" alt="...">M.A.M</a>
+                <div class="nav-links hidden">
+                    <a class="active" href="#" id="listhome">home</a>
+                    <a href="#" id="listadout">about</a>
+                    <a href="#" id="listskils">link</a>
+             </div>
+             <div  class="nav-links hid">
+                <li class="nav-item dropdown  ">
+                    <a class="nav-link dropdown activ" href="li" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Demos <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" id="li">
+                      <li id="li"><a class="dropdown-item" href="#" id="listhome1">home</a></li>
+                      <li><a class="dropdown-item"    id="listadout1">about</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#" id="listskils1">link</a></li>
+                    </ul>
+                  </li>   </div>
+            </nav>
+
+            <div class="content" id="align">
+                <div class="div-text">
+                    <h4>Hello I'm</h4>
+                    <h1>Mahmoud Ali</h1>
+                    <span>Full Stack Developer</span>
+                    <div class="social-link">
+                      <a href="https://api.whatsapp.com/send?phone=201001514586"><i class="fa-brands fa-whatsapp"></i></a>
+                      <a href="https://www.instagram.com/mahmoud.a.abdulrahim"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.facebook.com/Mahmoud.A.AbdulRahim"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="http://www.linkedin.com/in/mahmoudaabdelrahim"><i class="fa-brands fa-linkedin-in"></i></a>  
+                  </div>
+                    <a href="viduo/mahmoud ali.pdf" class="btn" download>Download CV</a>
+                </div>
+
+                <div class="div-img">
+                    <img src="viduo/Image.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="content hidde" id="times">
+          
+                <div class="container"> 
+                   <h4 style="text-align: center; color: #509c6e;">لهذه المواقعlink اعتزر لعدم وضع </h4>
+                  <h2> موقع حجز كشف عن بعد</h2>
+                  <video controls poster="viduo/Image.jpg" id="player1">
+                      <!-- Video files -->
+                      <source src="viduo/video.mp4" type="video/mp4" size="360">
+                      <source src="viduo/video.mp4" type="video/mp4" size="480">
+                      <source src="viduo/video.mp4" type="video/mp4" size="576">
+                      <source src="viduo/video.mp4" type="video/mp4" size="720">
+                  
+                      <!-- Fallback for browsers that don't support the <video> element -->
+                  </video>
+              
+                  <h2> معرض سيارات مرسيدس</h2>
+                  <video controls poster="viduo/Image.jpg" id="player2">
+                      <!-- Video files -->
+                      <source src="viduo/video3.mp4" type="video/mp4" size="360">
+                      <source src="viduo/video3.mp4" type="video/mp4" size="480">
+                      <source src="viduo/video3.mp4" type="video/mp4" size="576">
+                      <source src="viduo/video3.mp4" type="video/mp4" size="720">
+                  
+                      <!-- Fallback for browsers that don't support the <video> element -->
+                  </video>
+                  <h2> متجر الاكتروني </h2>
+                  <video controls poster="viduo/Image.jpg" id="player3">
+                      <!-- Video files -->
+                      <source src="viduo/video4.mp4" type="video/mp4" size="360">
+                      <source src="viduo/video4.mp4" type="video/mp4" size="480">
+                      <source src="viduo/video4.mp4" type="video/mp4" size="576">
+                      <source src="viduo/video4.mp4" type="video/mp4" size="720">
+                  
+                      <!-- Fallback for browsers that don't support the <video> element -->
+                  </video>
+              
+                  <div class="actions">
+                      <p type="button" class="btn js-play"></p>
+                      <p type="button" class="btn js-pause"></p>
+                      <p type="button" class="btn js-stop"></p>
+                      <p type="button" class="btn js-rewind"></p>
+                      <p type="button" class="btn js-forward"></p>
+                  </div>
+      
+          
+                <h2>منصة تعليمية</h2>
+                <video controls poster="viduo/Image.jpg" id="player4">
+                    <!-- Video files -->
+                    <source src="viduo/video1.mp4" type="video/mp4" size="360">
+                    <source src="viduo/video1.mp4" type="video/mp4" size="480">
+                    <source src="viduo/video1.mp4" type="video/mp4" size="576">
+                    <source src="viduo/video1.mp4" type="video/mp4" size="720">
+                
+                    <!-- Fallback for browsers that don't support the <video> element -->
+                </video>
+            
+                <h2>موقع تواصل</h2>
+                <video controls poster="viduo/Image.jpg" id="player5">
+                    <!-- Video files -->
+                    <source src="viduo/video2.mp4" type="video/mp4" size="360">
+                    <source src="viduo/video2.mp4" type="video/mp4" size="480">
+                    <source src="viduo/video2.mp4" type="video/mp4" size="576">
+                    <source src="viduo/video2.mp4" type="video/mp4" size="720">
+                
+                    <!-- Fallback for browsers that don't support the <video> element -->
+                </video>
+                <h2> موقع تحميل تطبيق</h2>
+                <video controls poster="viduo/Image.jpg" id="player6">
+                    <!-- Video files -->
+                    <source src="viduo/video5.mp4" type="video/mp4" size="360">
+                    <source src="viduo/video5.mp4" type="video/mp4" size="480">
+                    <source src="viduo/video5.mp4" type="video/mp4" size="576">
+                    <source src="viduo/video5.mp4" type="video/mp4" size="720">
+                
+                    <!-- Fallback for browsers that don't support the <video> element -->
+                </video>
+            
+                <div class="actions">
+                    <p type="button" class="btn js-play"></p>
+                    <p type="button" class="btn js-pause"></p>
+                    <p type="button" class="btn js-stop"></p>
+                    <p type="button" class="btn js-rewind"></p>
+                    <p type="button" class="btn js-forward"></p>
+                </div></div>
+            </div>
+
+            <div class="content hidde" id="skils">
+                <div class="div-text">
+                    <h4>    </h4>
+                
+                    <div class="social-link">
+                    <span>Login site<a href="https://login10-pi.vercel.app"><i class="fa-brands fa-google"> </i></a> </span><br>
+                    <span>ELalmua2 Internet<a href="https://e-lalmua2.vercel.app"><i class="fa-brands fa-google"> </i></a> </span><br>
+                    <span>Guess 13 random numbers<a href="https://code-omega-ashy.vercel.app"><i class="fa-brands fa-google"> </i></a> </span><br>
+                    <span>My first experience learning programming<a href="https://my-first-project-brown-nine.vercel.app"><i class="fa-brands fa-google"> </i></a> </span><br>
+                    <span>A location for storing personal or customer data<a href="https://data-storage-pi.vercel.app"><i class="fa-brands fa-google"> </i></a> </span>
+
+                </div>
+
+              </div>
+            </div>
+          <script src="https://cdn.plyr.io/3.5.12/plyr.min.js"></script>
+          <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+          <script>
+              document.addEventListener('DOMContentLoaded', () => { 
+                  // Initialize Plyr for both videos
+                  const player1 = new Plyr('#player1');
+                  const player2 = new Plyr('#player2');
+                  const player3 = new Plyr('#player3');
+                  const player4 = new Plyr('#player4');
+                  const player5 = new Plyr('#player5');
+                  const player6 = new Plyr('#player6');
+                  // Expose both players
+                  window.player1 = player1;
+                  window.player2 = player2;
+                  window.player3 = player3;
+                  window.player4 = player4;
+                  window.player5 = player5;
+                  window.player6 = player6;
+                  // Bind event listener for buttons (modify as needed)
+                  function on(selector, type, callback) {
+                      document.querySelector(selector).addEventListener(type, callback, false);
+                  }
+                  
+                  // Example for controlling the first player
+                  on('.js-play', 'click', () => { 
+                      player1.play();
+                  });
+                  
+                  // Pause example
+                  on('.js-pause', 'click', () => { 
+                      player1.pause();
+                  });
+                  
+                  // Stop example
+                  on('.js-stop', 'click', () => { 
+                      player1.stop();
+                  });
+                  
+                  // Rewind
+                  on('.js-rewind', 'click', () => { 
+                      player1.rewind();
+                  });
+                  
+                  // Forward
+                  on('.js-forward', 'click', () => { 
+                      player1.forward();
+                  });
+              });
+          </script>
+    <script>
+        let listadout = document.getElementById('listadout')
+        let listhome = document.getElementById('listhome')
+        let listadout1 = document.getElementById('listadout1')
+        let listhome1 = document.getElementById('listhome1')
+        let listskils1 = document.getElementById('listskils1')
+        let listskils = document.getElementById('listskils')
+
+        let align =document.getElementById('align');
+        let times = document.getElementById('times');
+
+        let skils = document.getElementById('skils');
+
+        listadout?.addEventListener('click' ,function(){
+          times.classList.remove("hidde")});
+          listadout?.addEventListener('click' ,function(){
+            align.classList.add("hidde")});
+            listadout?.addEventListener('click' ,function(){
+              skils.classList.add("hidde")});
+
+            listhome?.addEventListener('click' ,function(){
+              align.classList.remove("hidde")});
+          listhome?.addEventListener('click' ,function(){
+            times.classList.add("hidde")});
+            listhome?.addEventListener('click' ,function(){
+              skils.classList.add("hidde")});
+
+              listskils?.addEventListener('click' ,function(){
+                skils.classList.remove("hidde")});
+              listskils?.addEventListener('click' ,function(){
+            times.classList.add("hidde")});
+            listskils?.addEventListener('click' ,function(){
+              align.classList.add("hidde")});
+
+
+
+            listadout1?.addEventListener('click' ,function(){
+          times.classList.remove("hidde")});
+          listadout1?.addEventListener('click' ,function(){
+            align.classList.add("hidde")});
+            listadout1?.addEventListener('click' ,function(){
+              skils.classList.add("hidde")});
+
+            listhome1?.addEventListener('click' ,function(){
+              align.classList.remove("hidde")});
+          listhome1?.addEventListener('click' ,function(){
+            times.classList.add("hidde")});
+            listhome1?.addEventListener('click' ,function(){
+              skils.classList.add("hidde")});
+
+              listskils1?.addEventListener('click' ,function(){
+                skils.classList.remove("hidde")});
+              listskils1?.addEventListener('click' ,function(){
+            times.classList.add("hidde")});
+            listskils1?.addEventListener('click' ,function(){
+              align.classList.add("hidde")});
+    </script>
+    <script src="css/js/bootstrap.min.js"></script>
+    <script src="css/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
