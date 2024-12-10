@@ -1,120 +1,164 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    text-decoration: none;
-    transition: 0.4s;
-}
-body{
-    background-color: #242424;
-    height: 100vh;
-    width: 90%;
-    margin: auto;
-}
-nav{
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo{
-    color: #fff;
-    font-size: 35px;
-    font-weight: 700;
-}
- .logo span{
-    color: #4bffa5;
-}
-.nav-links a{
-    color: #fff;
-    font-size: 18px;
-    margin-left: 25px;
-    text-transform: capitalize;
-}
-.nav-links a:hover,
-.nav-links a.active{
-    color: #4bffa5;
-}
+    /* From Uiverse.io by vinodjangid07 */ 
 
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.content .div-text h4{
-    color: #fff;
-    font-size: 35px;
-    letter-spacing: 2px;
-}
- .content .div-text h1{
-    color: #fff;
-    font-size: 60px;
-    margin: 25px 0 10px;
-}
-.content .div-text span{
-    color: #4bffa5;
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1.5;
-}
- .content .div-text .social-link{
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
- .content .div-text .social-link a i{
-    width: 45px;
-    height: 45px;
-    background-color: #242424;
-    border: 2px solid #4bffa5;
-    color: #4bffa5;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    font-weight: 600;
-}
- .content .div-text .social-link a i:hover{
-    color: #242424;
-    background-color: #4bffa5;
-    box-shadow: 0 0 10px #4bffa5;
-}
-.content .div-text .btn{
-
-    background-color: #242424;
-    border: 2px solid #4bffa5;
-    color: #4bffa5;
-    text-align: center;
-    border-radius: 10%;
-    font-weight: 600;
-}
- .content .div-text .btn:hover{
-    color: #242424;
-    background-color: #4bffa5;
-    box-shadow: 0 0 10px #4bffa5;
-}
-
-
-
-
-
-.content .div-img{
-    width: 50%;
-}
- .content .div-img img{
-    width: 100%;
-    position: relative;
-    animation: img-portfile 8s ease-in-out infinite;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-}
-@keyframes img-portfile{
-    0%{
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    :root{
+      --body-color: #fff;
+      --dark-color: #222831;
+      --text-color: #1976D2;
+      --dark-red: #d01418;
+      --border-color: #6666662a;
+      --name-item: #64B5F6;
     }
-    50%{
-        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    .list{
+      background-color: var(--name-item)
     }
-    100%{
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  .InputContainer {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--body-color);
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      padding-left: 15px;
+      box-shadow: 2px 2px 10px var(--border-color);
     }
-}
+    
+    .input {
+      width: 300px;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-size: 0.9em;
+      border-radius: 40px;
+      caret-color: var(--text-color);
+
+    }
+    .input1 {
+      width: 150px;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-size: 0.9em;
+      border-radius: 40px;
+      caret-color: var(--text-color);
+
+    }
+  
+  
+    .labelforsearch {
+      cursor: text;
+      padding: 0px 12px;
+    }
+    
+    .searchIcon {
+      width: 13px;
+    }
+    
+    .border {
+      height: 40%;
+      width: 1.3px;
+      background-color: var(--body-color);
+    }
+    
+    .micIcon {
+      width: 12px;
+    }
+    
+    .micButton {
+      padding: 0px 15px 0px 12px;
+      border: none;
+      background-color: transparent;
+      height: 40px;
+      cursor: pointer;
+      transition-duration: .3s;
+    }
+    
+    .searchIcon path {
+      fill: rgb(114, 114, 114);
+    }
+    
+    .micIcon path {
+      fill: var(--text-color);
+    }
+    
+    .micButton:hover {
+      background-color: var(--body-color);
+      transition-duration: .3s;
+    }
+    @media (min-width:50px){
+        .haddin{
+            display: none;
+        }
+        .hid{
+            display: flex;
+        }
+
+        .fimo {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: center;
+          align-content: center;
+          flex-direction: column;
+         }
+    }
+    @media (min-width:680px){
+        .haddin{
+            display: flex;
+        }
+        .hid{
+            display: none;
+        }
+
+        .fimo{
+          display: flex
+          ;
+                  justify-content: space-evenly;
+                  align-items: baseline;
+                  flex-wrap: nowrap;
+                  flex-direction: row-reverse;
+   
+         }
+    }
+    .text{
+      color: var(--text-color);
+      text-align: center;
+    }
+    h1{
+     color: var(--body-color);
+     font-weight: bold; 
+     font-weight:initial; 
+     font-size: 26px;
+     border: 3px solid var(--text-color) ; 
+     border-radius: 20px 100px;
+     font-family: 'Times New Roman', Times, serif;
+    }
+    li{
+        color: #fff;
+    }
+    a{
+      color: #fff;
+
+    }
+    .btn:hover{
+    color: var(--text-color);
+    }
+    label{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: flex-start;
+      border-radius: 40px;
+    }
+    .container{
+      background-color: #64B5F6;
+      width: 80%; 
+      height: 100%;
+      margin-top:100px;
+      color:#fff;   
+      border: 3px solid #64B5F6 ; 
+      border-radius: 20px 90px;
+      text-align: center;
+    }
