@@ -1,91 +1,117 @@
     /* From Uiverse.io by vinodjangid07 */ 
-
     :root{
       --body-color: #fff;
       --dark-color: #222831;
       --text-color: #1976D2;
-      --dark-red: #d01418;
+      --dark-red: #1661ac;
       --border-color: #6666662a;
-      --name-item: #64B5F6;
+      --name-item: #2ba0ff;
     }
+    nav{
+      zoom: 0.7;
+  }
     .list{
       background-color: var(--name-item)
     }
-  .InputContainer {
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .nav-item {
+    list-style: none;
+    display: flex;      
+    gap: 20px;
+    padding: 0;
+    font-size: 23px;
+    font-weight: 500;
+    color: #fff;
+    }
+    .nav-link {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    }
+    .nav-link::after {
+    content: "";    
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background:  #004679; /* لون متدرج */
+    transition:width 0.3s ease-in-out;
+    }
+    .nav-link:hover::after{
+    width: 100%;
+    }
+    .A{
+      font-size: 20px;
+    }
+    .search {
+      width: 50px;
+      height: 50px;    
+      text-align: center;
+      border: none;
+      outline: none;
+      font-size: 0.9em;
       background-color: var(--body-color);
-      border-radius: 10px;
-      overflow: hidden;
-      cursor: pointer;
-      padding-left: 15px;
-      box-shadow: 2px 2px 10px var(--border-color);
-    }
-    
-    .input {
-      width: 300px;
-      height: 100%;
-      border: none;
-      outline: none;
-      font-size: 0.9em;
-      border-radius: 40px;
-      caret-color: var(--text-color);
-
-    }
-    .input1 {
-      width: 150px;
-      height: 100%;
-      border: none;
-      outline: none;
-      font-size: 0.9em;
-      border-radius: 40px;
-      caret-color: var(--text-color);
-
-    }
-  
-  
-    .labelforsearch {
+      border-radius: 50px 50px;
+      fill:var(--text-color);
+  }
+  .search:hover{
+      box-shadow:0px 0px 25px var(--dark-red); /* تأثير التوهج */
+  }
+  .labelforsearch:hover{
+      box-shadow:0px 0px 20px var(--dark-red); /* تأثير التوهج */
+      transform: scale(1.05); 
+  }
+  .labelforsearch {
       cursor: text;
       padding: 0px 12px;
-    }
-    
-    .searchIcon {
-      width: 13px;
-    }
-    
-    .border {
+  }
+  .searchIcon {
+      width: 13px;    
+  }
+  .border {
       height: 40%;
       width: 1.3px;
-      background-color: var(--body-color);
-    }
-    
-    .micIcon {
+      background-color: var(--dark-red);
+  }
+  .micIcon {
       width: 12px;
-    }
-    
-    .micButton {
+  }
+  .micButton {
       padding: 0px 15px 0px 12px;
       border: none;
       background-color: transparent;
       height: 40px;
       cursor: pointer;
       transition-duration: .3s;
-    }
-    
-    .searchIcon path {
-      fill: rgb(114, 114, 114);
-    }
-    
-    .micIcon path {
-      fill: var(--text-color);
-    }
-    
-    .micButton:hover {
-      background-color: var(--body-color);
+  }
+  .micButton:hover {
       transition-duration: .3s;
-    }
+  }
+
+  .input-group {
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+.input3 {
+    min-height: 50px;
+    width: 350px!important;
+    padding: 0 1rem;
+    font-size: 15px;
+    outline: var(--dark-red);
+    border: 2px solid var(--dark-red) ;
+    border-radius: 5px ;
+    text-align: end;
+}
+.input3:hover {
+    border: 2px solid rgb(93, 157, 253) ;
+
+}
+:root {
+    --card-height: 300px;
+    --card-width: calc(var(--card-height) / 1.5);
+}
     @media (min-width:50px){
         .haddin{
             display: none;
@@ -101,8 +127,8 @@
           align-items: center;
           align-content: center;
           flex-direction: column;
-         }
-         .card1 {
+        }
+        .card1 {
           --bg-card: #0091ff;
           --primary: #289bd9;
           --primary-800: #1d4795;
@@ -110,20 +136,15 @@
           --light: #d9d9d9;
           --zinc-800: #154ca5;
           --bg-linear: linear-gradient(0deg, var(--primary) 50%, var(--light) 125%);
-        
           position: relative;
-        
           display: flex;
           flex-direction: column;
           text-align: center;
           gap: 0.95rem;
-        
           padding: 1rem;
           width: 20rem;
           background-color: var(--bg-card);
-        
           border-radius: 1rem;
-           
           margin: 10px 10px 0 0 ;
         }
     }
@@ -142,9 +163,8 @@
                   align-items: baseline;
                   flex-wrap: nowrap;
                   flex-direction: row-reverse;
-   
-         }
-         .card1 {
+        }
+        .card1 {
           --bg-card: #0091ff;
           --primary: #289bd9;
           --primary-800: #1d4795;
@@ -152,19 +172,14 @@
           --light: #d9d9d9;
           --zinc-800: #154ca5;
           --bg-linear: linear-gradient(0deg, var(--primary) 50%, var(--light) 125%);
-        
           position: relative;
-        
           display: flex;
           flex-direction: column;
           gap: 0.75rem;
-        
           padding: 1rem;
           width: 45rem;
           background-color: var(--bg-card);
-        
           border-radius: 1rem;
-           
           margin: 10px 10px 0 0 ;
         }
     }
@@ -172,14 +187,16 @@
       color: var(--text-color);
       text-align: center;
     }
+
     h1{
      color: var(--body-color);
-     font-weight: bold; 
-     font-weight:initial; 
-     font-size: 26px;
-     border: 3px solid var(--text-color) ; 
+     border: 5px solid var(--text-color) ; 
      border-radius: 20px 100px;
-     font-family: 'Times New Roman', Times, serif;
+
+  font-size: 30px !important;
+  font-family: "Single Day", cursive;
+  font-style: normal;
+  font-weight: 400 !important;
     }
     li{
         color: #fff;
