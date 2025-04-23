@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+Sitemap: https://mahmoud-ali-1pxx.vercel.app/sitemap.xml
