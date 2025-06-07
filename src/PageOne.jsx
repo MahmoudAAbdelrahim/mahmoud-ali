@@ -12,7 +12,7 @@ const PageOne = () => {
         <div className="card1">
           <div className="image_container">
             <video controls poster="viduo/Image.jpg" id="player1">
-              <source src="viduo/video.mp4" type="video/mp4" size="360" />
+              <source src="/viduo/video.mp4" type="video/mp4" size="360" />
               <source src="viduo/video.mp4" type="video/mp4" size="480" />
             </video>
           </div>
