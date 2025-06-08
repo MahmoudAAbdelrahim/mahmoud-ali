@@ -12,8 +12,8 @@ const PageFour = () => {
         <div className="card1">
           <div className="image_container">
             <video controls poster="viduo/Image.jpg" id="player7">
-              <source src="viduo/video7.mp4" type="video/mp4" size="360" />
-              <source src="viduo/video7.mp4" type="video/mp4" size="480" />
+              <source src="./viduo/video7.mp4" type="video/mp4" size="360" />
+              <source src="./viduo/video7.mp4" type="video/mp4" size="480" />
               {/* Fallback for browsers that don't support the <video> element */}
             </video>
           </div>
@@ -24,7 +24,7 @@ const PageFour = () => {
 
         <div className="card1">
           <div className="image_container">
-            <img src="viduo/Library.png" alt="" style={{ width: '100%' }} />
+            <img src="./viduo/Library.png" alt="" style={{ width: '100%' }} />
           </div>
           <div className="title">
             <span>
@@ -37,7 +37,7 @@ const PageFour = () => {
           </div>
           <div className="card1">
   <div className="image_container">
-    <img src="viduo/store.png" alt="" style={{ width: '100%' }} />
+    <img src="./viduo/store.png" alt="" style={{ width: '100%' }} />
   </div>
   <div className="title">
     <span>
