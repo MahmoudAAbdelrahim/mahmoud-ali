@@ -31,7 +31,7 @@ const Home = () => {
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
             <a href=" https://github.com/MahmoudAAbdelrahim" target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-github -in"></i>
+               <i class="fa-brands fa-github"></i>            
             </a>
           </div>
 
