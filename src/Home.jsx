@@ -35,7 +35,7 @@ const Home = () => {
             </a>
           </div>
 
-          <a href="viduo/Mahmoud Ali Mahmoud.pdf" className="btn btn-primary mt-3" download>
+          <a href="/viduo/Mahmoud Ali Mahmoud-full.pdf" className="btn btn-primary mt-3" download>
             Download CV
           </a>
         </div>
