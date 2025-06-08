@@ -99,7 +99,8 @@ function Navbar() {
           <li className="nav-item">
             <Link className="nav-link active text-white fw-bold" to="/">Home</Link>
           </li>
-          <li className="nav-item dropdown position-relative">
+         
+        </ul> <li className="nav-item dropdown position-relative">
             <a
               className="nav-link dropdown-toggle text-white fw-bold"
               href="#"
@@ -116,7 +117,6 @@ function Navbar() {
               ))}
             </ul>
           </li>
-        </ul>
       </div>
     </nav>
   );
