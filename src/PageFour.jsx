@@ -11,7 +11,7 @@ const PageFour = () => {
       <div className="fimo" style={{ alignItems: 'stretch' }}>
         <div className="card1">
           <div className="image_container">
-            <video controls poster="viduo/Image.jpg" id="player7">
+            <video controls poster="./viduo/Image.jpg" id="player7">
               <source src="./viduo/video7.mp4" type="video/mp4" size="360" />
               <source src="./viduo/video7.mp4" type="video/mp4" size="480" />
               {/* Fallback for browsers that don't support the <video> element */}
