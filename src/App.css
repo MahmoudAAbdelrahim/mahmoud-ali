@@ -153,7 +153,7 @@
           margin: 10px 10px 0 0 ;
         }
     }
-    @media (min-width:680px){
+    @media (min-width:700px){
         .haddin{
             display: flex;
         }
@@ -162,11 +162,12 @@
         }
 
         .fimo{
-          display: flex;
-                  justify-content: space-evenly;
-                  align-items: baseline;
-                  flex-wrap: nowrap;
-                  flex-direction: row-reverse;
+              display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+
         }
         .card1 {
           --bg-card: #0091ff;
@@ -181,7 +182,7 @@
           flex-direction: column;
           gap: 0.75rem;
           padding: 1rem;
-          width: 45rem;
+          width: 20rem;
           background-color: var(--bg-card);
           border-radius: 1rem;
           margin: 10px 10px 0 0 ;
