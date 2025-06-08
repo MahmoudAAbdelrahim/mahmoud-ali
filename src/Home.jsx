@@ -30,6 +30,9 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/mahmoud-a-abdelrahim-8bb01b364" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
+            <a href=" https://github.com/MahmoudAAbdelrahim" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-github -in"></i>
+            </a>
           </div>
 
           <a href="viduo/Mahmoud Ali Mahmoud.pdf" className="btn btn-primary mt-3" download>
