@@ -11,9 +11,9 @@ const PageOne = () => {
       <div className="fimo">
         <div className="card1">
           <div className="image_container">
-            <video controls poster="viduo/Image.jpg" id="player1">
-              <source src="/viduo/video.mp4" type="video/mp4" size="360" />
-              <source src="viduo/video.mp4" type="video/mp4" size="480" />
+            <video controls poster="/video/Image.jpg" id="player1" style={{ width: '100%' }}>
+              <source src="/video/video.mp4" type="video/mp4" size="360" />
+              <source src="/video/video.mp4" type="video/mp4" size="480" />
             </video>
           </div>
           <div className="title">
@@ -23,9 +23,9 @@ const PageOne = () => {
 
         <div className="card1">
           <div className="image_container">
-            <video controls poster="viduo/Image.jpg" id="player2">
-              <source src="viduo/video3.mp4" type="video/mp4" size="360" />
-              <source src="viduo/video3.mp4" type="video/mp4" size="480" />
+            <video controls poster="/video/Image.jpg" id="player2" style={{ width: '100%' }}>
+              <source src="/video/video3.mp4" type="video/mp4" size="360" />
+              <source src="/video/video3.mp4" type="video/mp4" size="480" />
             </video>
           </div>
           <div className="title">
@@ -35,9 +35,9 @@ const PageOne = () => {
 
         <div className="card1">
           <div className="image_container">
-            <video controls poster="viduo/Image.jpg" id="player3" width="97%">
-              <source src="viduo/video4.mp4" type="video/mp4" size="360" />
-              <source src="viduo/video4.mp4" type="video/mp4" size="480" />
+            <video controls poster="/video/Image.jpg" id="player3" style={{ width: '100%' }}>
+              <source src="/video/video4.mp4" type="video/mp4" size="360" />
+              <source src="/video/video4.mp4" type="video/mp4" size="480" />
             </video>
           </div>
           <div className="title">
@@ -45,7 +45,9 @@ const PageOne = () => {
           </div>
         </div>
       </div>
+
     </div>
+  
   );
 };
 
